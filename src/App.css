@@ -1,0 +1,257 @@
+.App {
+  text-align-last: center;
+
+}
+/*image fond design*/
+
+.bg {
+  background-image: url("https://assets.afcdn.com/recipe/20160928/20671_w1200h320c1cx1920cy1920.jpg");
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  /*image fond conf*/
+.bgconf{
+  background-image: url("https://assets.afcdn.com/album/D20200324/phalbm25917176_w660.jpg");
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+/*search design*/
+.search-form { 
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-bar{
+  widows: 50%;
+  border-color: aqua;
+  padding:10px;
+  width:500px;
+  height: 50px;
+}
+.search-bar-conf{
+  widows: 50%;
+  border-color: wheat;
+  padding:10px;
+  width:300px;  
+}
+.search-button{
+  background: lightcoral;
+  border-color:aqua;
+  padding: 10px 20px;
+  color:white;
+}
+
+.search-button-conf{
+  background: wheat;
+  border-color:wheat;
+  padding: 10px 20px;
+  color:black;
+}
+
+/*ordre des cartes*/
+.ordrecarte{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+}
+/*footer design*/
+.ttcol{
+  background-color: Crimson !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.list-unstyled{
+  list-style-type: none !important;
+}
+
+
+/*sign design*/
+
+.App__Form {
+  width:50%;
+  height:100%;
+  background-color: rgb(250, 81, 81);
+  padding: 25px 40px;
+  overflow: auto;
+}
+.background{
+  background-image: url('https://assets.afcdn.com/recipe/20200318/109121_w648h414c1cx2886cy4330cxt0cyt0cxb5773cyb8660.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.PageSwitcher {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10%;
+}
+
+.PageSwitcher__Item {
+  background-color: rgb(65, 10, 28);
+  color: rgb(247, 9, 80);
+  padding: 10px 25px;
+  cursor: pointer;
+  font-size: .9em;
+  border: none;
+  outline: none;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.PageSwitcher__Item--Active {
+  background-color: rgb(130, 208, 94);
+  color: white;
+}
+
+.PageSwitcher__Item:first-child {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.PageSwitcher__Item:last-child {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.FormCenter {
+  margin-bottom: 100px;
+}
+
+.FormTitle {
+  color: rgb(8, 236, 111);
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.FormTitle__Link {
+  color: rgb(4, 248, 195);
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.7em;
+  margin: 0 10px;
+  padding-bottom: 5px;
+}
+
+.FormTitle__Link:first-child {
+  margin-left: 0;
+}
+
+.FormTitle__Link--Active {
+  color: white;
+  border-bottom: 1px solid #199087;
+}
+
+.FormField {
+  margin-bottom: 40px;
+}
+
+.FormField__Label {
+  display: block;
+  text-transform: uppercase;
+  font-size: .9em;
+  color: white;
+}
+.FormField__Input {
+  width: 50% !important;
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  border-bottom: 1px solid #445366;
+  font-size: 1em;
+  font-weight: 300;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.FormField__Input::placeholder {
+  color: rgb(241, 238, 8);
+}
+
+.FormField__Button {
+  background-color: rgb(8, 128, 78);
+  color:white;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  padding: 15px 70px;
+  font-size: .8em;
+  font-weight: 500;
+}
+
+.FormField__Link {
+  color:black;
+  text-decoration: none;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.FormField__CheckboxLabel {
+  color: rgb(2, 14, 31);
+  font-size: .9em;
+}
+
+.FormField__Checkbox {
+  position: relative;
+  top: 1.5px;
+}
+
+.FormField__TermsLink {
+  color: white;
+  border-bottom: 1px solid #199087;
+  text-decoration: none;
+  display: inline-block;
+  padding-bottom: 2px;
+  margin-left: 5px;
+}
+.figfond{
+background-image: url('./figtrois.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.gg{
+display: flex;
+justify-content:space-around !important;
+background-color: wheat ;
+
+}
+
+.bb{
+  width: 100px !important; 
+  margin-right: 40px !important;
+  border-color: transparent;
+  background-color: transparent !important;
+  font-family: Arial;
+
+}
+.hh{
+  margin-right: 50px !important;
+  margin-top: 20px !important;
+  font-family: Arial;
+}
+
+.sugforme{
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+}
+.sugfoto{
+ display:flex !important;
+ justify-content: space-between !important;
+ margin-top: 20px;
+ margin-left: 70px !important;
+}
+
+.sugliste{
+  display:flex !important;
+  flex-direction: column-reverse !important;
+  margin-top: 20px;
+  margin-left: 140px !important;
+ }
